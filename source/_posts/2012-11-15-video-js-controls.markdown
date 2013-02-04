@@ -39,8 +39,7 @@ The controls are always up in fullscreen. They come up on autoplay and don't go 
     +        }
     +        this.controlBar.fadeIn();
     +        videoJSTimer = setTimeout(this.controlBar.proxy(this.controlBar.fadeOut), 3000);
-    +    }));
-    +  }
+    +      });
          }));
 
        },
