@@ -1,0 +1,23 @@
+---
+layout: post
+title: Sublime Text 2 is awesome
+---
+
+
+There are many posts on people's sublime text setups. My config is here:
+
+{% highlight python %}
+
+    {
+        "color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
+        "font_face": "Source Code Pro",
+        "font_size": 15.0,
+        "translate_tabs_to_spaces": true,
+        "theme": "Soda Dark.sublime-theme",
+        "trim_trailing_white_space_on_save": true,
+        "caret_style": "phase",
+        "highlight_line": true,
+        "scroll_past_end": true
+    }
+
+{% endhighlight %}

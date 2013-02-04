@@ -1,0 +1,13 @@
+---
+layout: post
+title: Why I run VMWare and not VirtualBox
+---
+
+VMWare just works
+
+Running VMWare fusion on Mac OS X and VMWare workstations on Windows just works. VMWare will run through all the steps of a linux install leaving you with a box with vmware tools pre-installed.
+
+VMWare keeps the clock in sync so AWS API calls don't fail. There are fixes with virtualbox, but they always seem to break over time for me.
+
+VMWare works with mongodb unlike [virtualbox which uses too much cpu](http://stackoverflow.com/questions/11142066/high-idle-cpu-usage-for-mongodb-on-ubuntu-guest-vm).
+
